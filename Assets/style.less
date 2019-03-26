@@ -1,0 +1,123 @@
+body{
+    background-color:#f1f1f1;
+    font-family:adventpro-bold;
+    margin:0px;
+    padding:0px;
+}
+
+// header
+
+.header{
+    display:flex;
+    position:fixed;
+    z-index:3;
+    left:0px; top:0px;
+    width:100%;
+    overflow:auto;
+    background-color: @background;
+    flex-flow:row nowrap; //column
+    justify-content:space-around; //flex-start  
+    .left-pane{
+        display:flex;
+        justify-content:space-around;
+        img{
+            width:2em; //1.5em
+            height:2em; //1.5em
+            padding: 2px 10px;
+            vertical-align: middle;
+        }
+        .title{
+            font-size:2em; //1.5 em
+        }
+        
+    }
+        .links{
+            display:flex;
+            font-family:adventpro-bold;
+            justify-content: center;
+            align-items: center;
+            a{
+                padding:10px; // 5
+                font-size:2em; // 1.5em
+                color:white;
+                text-decoration:none;
+                cursor: pointer;
+                transition: .4s;    
+                &:hover{
+                    color:aquamarine;
+                }
+            }
+            
+        }
+}
+
+
+.welcome{
+    width:100%; 
+    margin-top:4%;
+    height:60%; // small:60%
+    display:flex;
+    padding:5px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align:center;
+    background-image:url(background.jpg);
+    background-size: cover;
+    .text-1{
+        font-size:4em; //med:2.5em //small:2em
+    }
+}
+
+
+
+.container{
+    width:90%;
+    margin:auto;    
+    .content{
+        width:60%; //med:80% small: 90%
+        margin:30px auto;
+        display:block;
+        background:white;
+        }
+        .icon{
+            font-size:60px;
+            display:block;
+            text-align:center;
+            color:@background;
+        }
+        
+        .line{
+            height:1px;
+            background: @background;
+        }
+        .highlight{
+            color:@background;
+        }
+        .title{
+            color:@background;
+            text-align:center;
+            padding:20px auto;
+            font-size:3em; //med:2.5em small : 1.7em
+        }
+    .text{
+        padding:30px;
+        font-family:tillana-regular;
+        font-size:2.5em; // med:2em small:1.3em
+    }
+    }
+.footer{
+    color:white;
+    padding:10px 0px;
+    background-color:black;
+    text-align:center;
+//    position:fixed;
+//    left:0px; bottom:0px;
+    width:100%;
+    
+}
+
+
+@background:blueviolet;
+@hover:aquamarine;

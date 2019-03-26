@@ -1,0 +1,27 @@
+a{
+    text-decoration: none;
+}
+
+#about:target{
+    display:block;
+}
+
+
+#first:before{
+    color:cornflowerblue;
+}
+
+#second:before{
+    color:orangered;
+}
+
+#third:before{
+    color:lightgreen;
+}
+
+
+
+
+.content:target {
+   z-index:4;
+}
