@@ -1,2 +1,6 @@
 # AleeyCreative.github.io
-My Personal Portofolio page
+My Personal Portfolio page built with : 
+- HTML
+- CSS
+- MaterialDesign-Webfont
+- MaterializeCSS
