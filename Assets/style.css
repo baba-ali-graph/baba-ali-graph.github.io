@@ -11,6 +11,7 @@ body {
   z-index: 3;
   left: 0px;
   top: 0px;
+  height:80px;
   width: 100%;
   overflow: auto;
   background-color: blueviolet;
@@ -60,10 +61,14 @@ body {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  color:blueviolet;
   flex-flow: column nowrap;
-  text-align: center;
+  color:black;
+  text-align: right;
   background-image: url(background.jpg);
   background-size: cover;
+  
+ 
 }
 .welcome .text-1 {
   font-size: 4em;
