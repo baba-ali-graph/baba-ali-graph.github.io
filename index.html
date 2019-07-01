@@ -7,6 +7,7 @@
 <link rel=stylesheet href="Assets/style.css"/>
 <meta name=viewport content=width=device-width />
 <meta name=keywords content="aleeycreative, portfolio, web developer, programmer, coding, frontend development" />
+<script src='Assets/MyTyper/typed.js/lib/typed.min.js'> </script>
 <link rel="stylesheet" href="Assets/responsive.css">
 </head>
 
@@ -28,9 +29,9 @@
 
 <!--big area with background image-->
 <div class="welcome">
-    <div class="text-1 " data-aos="flip-up" > Welcome to AleeyCreative</div>
-    <div class="text-2"> I am young developer who builds stuff for the <span class="highlight"> web </span> </div>
-    <div class="text-3">You can learn more about me  <span class="mdi  highlight pulse mdi-arrow-down-circle"> </span></div>
+    <div class="text-1 " data-aos="flip-up" > <!-- Welcome to AleeyCreative --> </div>
+    <div class="text-2"> I am a young developer who build stuffs for the <span class=highlight> web </span>  </div>
+ 	<div class=text-3>You can learn more about me <span class="highlight mdi mdi-arrow-down-circle"> </span>  </div> 
 </div>
 
 <!--container for each content-->
@@ -127,6 +128,11 @@
   
 <!--library for page scrolling effects-->
 <script src="Assets/aos/dist/aos.js"> </script>
+<script src="Assets/MyTyper/index.js"> </script>
+<script> 
+	const myTyper = createTyper('Welcome | to | AleeyCreative', '.text-1', 0, false)
+	let words = 'I am a young developer who build stuffs for the <span class=highlight> web </span> | You can learn more about me <span class="highlight mdi mdi-arrow-down-circle"> </span> '  
+</script>
 <script>
 AOS.init({
     easing:"ease-in-out-sine"
