@@ -10,7 +10,7 @@
 			const createOptions = (words,delayed,looped,blinker,spd) => ({
 				strings : words,
 				typeSpeed : 20,
-				backSpeed : 1,
+				backSpeed : 20,
 				showCursor : blinker ? blinker : true,
 				startDelay : delayed ? delayed : 0,
 				loop:looped ? looped : true
