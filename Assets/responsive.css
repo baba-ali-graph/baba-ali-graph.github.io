@@ -7,6 +7,7 @@
   }
   .header .left-pane .title {
     font-size: 1.5em;
+    color:#bfff;
   }
   .links a {
     padding: 5px;
@@ -17,7 +18,8 @@
     height: 60%;
   }
   .welcome .text-1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
+    color:#bfff;
   }
   .container {
     width: 90%;
