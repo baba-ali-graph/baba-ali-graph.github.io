@@ -29,7 +29,7 @@ AOS.init({
 function greeter(where) {
 	const hr = new Date().getHours()
 	console.log('current hours',hr)
-	let when  = hr < 12 ? 'morning' : hr > 12 && hr < 16 ? 'afternoon' : 'evening'
+	let when  = hr < 12 ? 'morning' : hr >= 12 && hr < 16 ? 'afternoon' : 'evening'
 	let actualgreeting = 'Good ' + when
 	if(where)
 		document.querySelector('where').textContent = actualgreeting
