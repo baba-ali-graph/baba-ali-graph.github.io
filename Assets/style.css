@@ -56,24 +56,24 @@ body {
 .welcome {
   width: 100%;
   margin-top: 4%;
-  height: 60%;
+  height: 40%;
   display: flex;
-  padding: 5px;
+  padding: 5px 20px;
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
   color:blueviolet;
   flex-flow: column nowrap;
-  color:black;
+  color:white;
   text-align: right;
-  background-image: url(background.jpg);
+  background: url("./background-v2.jpg");
+  background-position:center center;
   background-size: cover;
   
  
 }
 .welcome .text-1 {
   font-size: 4em;
-  color:black;
 }
 .container {
   width: 90%;
@@ -131,3 +131,6 @@ body {
     font-size:10px;
   }
 }
+
+
+/* Image by <a href="https://pixabay.com/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">xresch</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">Pixabay</a> */
