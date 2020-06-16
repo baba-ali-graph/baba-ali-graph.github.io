@@ -75,6 +75,9 @@ body {
 .welcome .text-1 {
   font-size: 4em;
 }
+ .links-small {
+  display:none;
+}
 .container {
   width: 90%;
   margin: auto;

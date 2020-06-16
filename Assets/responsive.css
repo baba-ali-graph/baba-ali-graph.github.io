@@ -17,32 +17,38 @@
   .welcome {
     margin-top:0%;
     position:relative;
-    height: 30%;
+    height: 20%;
+    color:white;
   }
-  .links {
+  .links-small {
+    display:block;
     position:absolute;
     bottom:0px;
     left:0px;
     width:100%;
+    background:rgba(53, 38, 45, 0.384);
   }
   .links__wrapper {
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items:center;
+    padding:10px;
   }
   .links__wrapper a {
     text-decoration: none;
     color:white;
-    padding:10px;
+    font-size:1em;
+    background:rgba(44, 33, 33, 0.226)155, 94, 94)
+    padding:20px;
   }
 
   .links__wrapper a:hover {
     text-decoration: none;
-    color:white;
+    color:blueviolet;
   }
   .welcome .text-1 {
-    font-size: 1.8em;
-    color:#bfff;
+    font-size: 1.5em;
+    color:white;
   }
   .container {
     width: 90%;
