@@ -3,6 +3,7 @@ body {
   background-color: #f1f1f1;
   font-family: adventpro-bold;
   margin: 0px;
+
   padding: 0px;
 }
 .header {
@@ -11,18 +12,18 @@ body {
   z-index: 3;
   left: 0px;
   top: 0px;
-  color:#bfff;	
-  height:80px;
+  color: white;
+  height: 80px;
   width: 100%;
   overflow: auto;
   background-color: blueviolet;
   flex-flow: row nowrap;
   justify-content: space-around;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 .header .left-pane {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-around;
 }
 .header .left-pane img {
@@ -44,14 +45,14 @@ body {
   padding: 10px;
   font-size: 2em;
   color: white;
-  box-sizing:border-box;
+  box-sizing: border-box;
   text-decoration: none;
   cursor: pointer;
-  transition: .4s;
+  transition: 0.4s;
 }
 .header .links a:hover {
   color: aquamarine;
-  border-bottom : 4px solid aquamarine;
+  border-bottom: 4px solid aquamarine;
 }
 .welcome {
   width: 100%;
@@ -62,39 +63,37 @@ body {
   box-sizing: border-box;
   justify-content: center;
   align-items: center;
-  color:blueviolet;
+  color: blueviolet;
   flex-flow: column nowrap;
-  color:white;
+  color: white;
   text-align: right;
   background: url("./background-v2.jpg");
-  background-position:center center;
+  background-position: center center;
   background-size: cover;
-  
- 
 }
 .welcome .text-1 {
   font-size: 4em;
 }
- .links-small {
-  display:none;
+.links-small {
+  display: none;
 }
 .container {
   width: 90%;
   margin: auto;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 .container .content {
   width: 75%;
   margin: 30px auto;
-  box-shadow:lightgrey 1px 1px 3000px 1px;
+  box-shadow: lightgrey 1px 1px 3000px 1px;
   display: block;
   background: white;
   border-left: 10px solid blueviolet;
 }
- .icon {
+.icon {
   width: 120px;
   height: 120px;
-  vertical-align:middle;
+  vertical-align: middle;
   text-align: center;
   color: blueviolet;
 }
@@ -106,20 +105,20 @@ body {
   color: blueviolet;
 }
 .container .content .title {
-  color : blueviolet;
-/*   text-align: center; */
-  padding : 30px 20px;
-  font-size : 3.5em;
-  margin : 30px 10px;
+  color: blueviolet;
+  /*   text-align: center; */
+  padding: 30px 20px;
+  font-size: 3.5em;
+  margin: 30px 10px;
 }
 .container .content .text {
   padding: 5px 30px;
   font-family: tillana-regular;
-  font-size: 2.0em;
+  font-size: 2em;
 }
 
 .container .content ul li {
-  font-size:em;
+  font-size: em;
 }
 .footer {
   color: white;
@@ -129,11 +128,10 @@ body {
   width: 100%;
 }
 
-@media screen and (max-width:600px){
-  .footer{
-    font-size:10px;
+@media screen and (max-width: 600px) {
+  .footer {
+    font-size: 10px;
   }
 }
-
 
 /* Image by <a href="https://pixabay.com/users/xresch-7410129/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">xresch</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=3682509">Pixabay</a> */
