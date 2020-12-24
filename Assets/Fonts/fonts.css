@@ -1,0 +1,47 @@
+/*font linking file*/
+
+@font-face{
+    font-family:adventpro-bold;
+    src:url("./font1/adventpro-bold.ttf");
+}
+
+@font-face{
+    font-family:adventpro-light;
+    src:url("./font1/adventpro-light.ttf");
+}
+
+
+@font-face{
+    font-family:adventpro-thin;
+    src:url("./font1/adventpro-thin.ttf");
+}
+
+@font-face{
+    font-family:Alegreya-Black;
+    src:url("./font2/Alegreya-Black.otf");
+}
+
+@font-face{
+    font-family:Alegreya-Italic;
+    src:url("./font2/Alegreya-Italic.otf");
+}
+
+@font-face{
+    font-family:Alegreya-Regular;
+    src:url("./font2/Alegreya-Regular.otf");
+}
+
+@font-face{
+    font-family:Spirax-Regular;
+    src:url("./font3/Spirax-Regular.ttf");
+}
+
+@font-face{
+    font-family:Merienda-Regular;
+    src:url("./font4/Merienda-Regular.ttf");
+}
+
+@font-face{
+    font-family:tillana-regular;
+    src:url("./font5/tillana-regular.ttf");
+}
