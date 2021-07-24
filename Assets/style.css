@@ -123,6 +123,15 @@ body {
   text-align: center;
   width: 100%;
 }
+.social-links li {
+  color: rgba(51, 55, 56, 0.87);
+}
+.social-links li a {
+  color: blueviolet;
+}
+.social-links li a:hover {
+  text-decoration: underline;
+}
 
 @media screen and (max-width: 600px) {
   .footer {
