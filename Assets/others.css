@@ -1,42 +1,26 @@
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-#about:target{
-    display:block;
+#about:target {
+  display: block;
 }
-
-
-#first:before{
-    color:cornflowerblue;
-}
-
-#second:before{
-    color:orangered;
-}
-
-#third:before{
-    color:lightgreen;
-}
-
-
-
 
 .content:target {
-   z-index:4;
+  z-index: 4;
 }
 
 /* Animation effects */
 
 [data-aos="roll-down"].aos-animate {
-    animation: roll-down 2s ease-in-out 1 forwards;
+  animation: roll-down 2s ease-in-out 1 forwards;
 }
 
 @keyframes roll-down {
-    from {
-        height:0px;
-    }
-    to {
-        height:auto;
-    }
+  from {
+    height: 0px;
+  }
+  to {
+    height: auto;
+  }
 }

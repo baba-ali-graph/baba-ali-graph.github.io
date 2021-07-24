@@ -7,6 +7,7 @@ body {
   font-family: adventpro-bold;
   margin: 0px;
   padding: 0px;
+  color: rgba(51, 55, 56, 0.87);
 }
 .header {
   display: flex;
@@ -98,10 +99,7 @@ body {
   text-align: center;
   color: blueviolet;
 }
-/* .container .line {
-  height: 1px;
-  background: blueviolet;
-} */
+
 .highlight {
   color: blueviolet;
 }
@@ -118,9 +116,6 @@ body {
   font-size: 2em;
 }
 
-.container .content ul li {
-  font-size: em;
-}
 .footer {
   color: white;
   padding: 10px 0px;

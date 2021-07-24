@@ -6,7 +6,7 @@ const text = `
 	I build websites,  | 
 	interactive applications, |	
 	and APIs. |
-	You can learn more about me <span class="highlight mdi mdi-arrow-down-circle"> </span> |
+	Learn more about me <span class="highlight mdi mdi-arrow-down-circle"> </span> |
 	`
 const myTyper = createTyper(text, ".text-1", {
   cursor: false,
